@@ -16,6 +16,5 @@ var socket = io();
 	});
 			//escuchar el evento o mensaje
 	socket.on('enviarMensaje', (mensaje) => {
-		document.getElementById('esto').innerHTML= mensaje;
 		console.log('Servidor: ',mensaje);
 	})
